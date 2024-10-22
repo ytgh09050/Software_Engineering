@@ -8,7 +8,7 @@
 透過UML建模過程掌握類別的分析與設計方法。
 
 # 實驗環境
-PowerDesigner
+starUML
 
 # 實驗任務
 針對「迷你圖書管理系統」的使用案例圖，進行分析，完成類別建模。
@@ -26,6 +26,16 @@ PowerDesigner
 
 # 類別圖
 ![image](https://github.com/ytgh09050/Software_Engineering/blob/main/image/2.jpg)
+
+上圖總的來說共有六個類，其中分別是User,RegisteredUser,OrdinaryUser,LibraryManager,MailSystem, Library .
+
+其中，MailSystem是介面。 User類別關聯RegisterUser和OrdinaryReader類，同時這兩個類別和User之間也存在聚集關係，LibraryManager和OrdinaryReader都繼承RegisterUser類別。 Library
+
+類別依賴RegisterUser和OrdinaryReader類別；LibraryManager也實作了MailSystem介面,又
+
+和Library之間存在著組成關係，各個類別都設定了一定的可見性，有的定義了一些操作方法。
+                        
+原文链接：https://blog.csdn.net/guleilei0/article/details/124869507
 
 # 對象圖
 ![image](https://github.com/ytgh09050/Software_Engineering/blob/main/image/3.jpg)
