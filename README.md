@@ -34,8 +34,7 @@ starUML
 類別依賴RegisterUser和OrdinaryReader類別；LibraryManager也實作了MailSystem介面,又
 
 和Library之間存在著組成關係，各個類別都設定了一定的可見性，有的定義了一些操作方法。
-                        
-原文链接：https://blog.csdn.net/guleilei0/article/details/124869507
 
 # 對象圖
 ![image](https://github.com/ytgh09050/Software_Engineering/blob/main/image/3.jpg)
+共三個物件
